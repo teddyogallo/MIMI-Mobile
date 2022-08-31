@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50396AFF16779DCD000428C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50396AFE16779DCD000428C6 /* Default-568h@2x.png */; };
 		505DB1D715C0015C00DA9C43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505DB1D615C0015C00DA9C43 /* UIKit.framework */; };
 		505DB1D915C0015C00DA9C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505DB1D815C0015C00DA9C43 /* Foundation.framework */; };
 		505DB1DB15C0015C00DA9C43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505DB1DA15C0015C00DA9C43 /* CoreGraphics.framework */; };
@@ -39,31 +40,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50396AFE16779DCD000428C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		505DB1D215C0015C00DA9C43 /* MIMI Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIMI Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		505DB1D615C0015C00DA9C43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		505DB1D815C0015C00DA9C43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		505DB1DA15C0015C00DA9C43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		505DB1DE15C0015C00DA9C43 /* MIMI Wallet-Info.plist */ = {isa = PBXFileReference; path = "MIMI Wallet-Info.plist"; sourceTree = "<group>"; };
+		505DB1DE15C0015C00DA9C43 /* MIMI Wallet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MIMI Wallet-Info.plist"; sourceTree = "<group>"; };
 		505DB1E015C0015C00DA9C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		505DB1E215C0015C00DA9C43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		505DB1E415C0015C00DA9C43 /* MIMI Wallet-Prefix.pch */ = {isa = PBXFileReference; path = "MIMI Wallet-Prefix.pch"; sourceTree = "<group>"; };
-		505DB1E515C0015C00DA9C43 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		505DB1E415C0015C00DA9C43 /* MIMI Wallet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIMI Wallet-Prefix.pch"; sourceTree = "<group>"; };
+		505DB1E515C0015C00DA9C43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		505DB1E615C0015C00DA9C43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		505DB1E915C0015D00DA9C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		505DB1EC15C0015D00DA9C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		505DB1EE15C0015D00DA9C43 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		505DB1EE15C0015D00DA9C43 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		505DB1EF15C0015D00DA9C43 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		505DB1F115C0015D00DA9C43 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		505DB1F315C0015D00DA9C43 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		505DB1F515C0015D00DA9C43 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		505DB1F515C0015D00DA9C43 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		505DB1F615C0015D00DA9C43 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		505DB1F815C0015D00DA9C43 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		505DB1FA15C0015D00DA9C43 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		505DB20115C0015D00DA9C43 /* MIMI WalletTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MIMI WalletTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		505DB20215C0015D00DA9C43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		505DB20A15C0015D00DA9C43 /* MIMI WalletTests-Info.plist */ = {isa = PBXFileReference; path = "MIMI WalletTests-Info.plist"; sourceTree = "<group>"; };
+		505DB20A15C0015D00DA9C43 /* MIMI WalletTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MIMI WalletTests-Info.plist"; sourceTree = "<group>"; };
 		505DB20C15C0015D00DA9C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		505DB20E15C0015D00DA9C43 /* MIMI_WalletTests.h */ = {isa = PBXFileReference; path = MIMI_WalletTests.h; sourceTree = "<group>"; };
+		505DB20E15C0015D00DA9C43 /* MIMI_WalletTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMI_WalletTests.h; sourceTree = "<group>"; };
 		505DB20F15C0015D00DA9C43 /* MIMI_WalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIMI_WalletTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 		505DB1C715C0015C00DA9C43 = {
 			isa = PBXGroup;
 			children = (
+				50396AFE16779DCD000428C6 /* Default-568h@2x.png */,
 				505DB1DC15C0015C00DA9C43 /* MIMI Wallet */,
 				505DB20815C0015D00DA9C43 /* MIMI WalletTests */,
 				505DB1D515C0015C00DA9C43 /* Frameworks */,
@@ -249,6 +252,7 @@
 				505DB1F415C0015D00DA9C43 /* first@2x.png in Resources */,
 				505DB1F915C0015D00DA9C43 /* second.png in Resources */,
 				505DB1FB15C0015D00DA9C43 /* second@2x.png in Resources */,
+				50396AFF16779DCD000428C6 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MIMI Wallet/MIMI Wallet-Prefix.pch";
 				INFOPLIST_FILE = "MIMI Wallet/MIMI Wallet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MIMI Wallet/MIMI Wallet-Prefix.pch";
 				INFOPLIST_FILE = "MIMI Wallet/MIMI Wallet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -466,6 +472,7 @@
 				505DB21515C0015D00DA9C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		505DB21615C0015D00DA9C43 /* Build configuration list for PBXNativeTarget "MIMI WalletTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +481,7 @@
 				505DB21815C0015D00DA9C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
